@@ -1,0 +1,112 @@
+/* Global Styles for the Header Section */
+.header-section {
+    background-color: #f0f4f8;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .intro {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .intro-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .intro-left {
+    margin-right: 50px;
+  }
+  
+  .profile-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid #0073e6;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .intro-right {
+    text-align: left;
+  }
+  
+  .title {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .tagline {
+    font-size: 1.2rem;
+    color: #888;
+    margin-bottom: 30px;
+  }
+  
+  .social-links a {
+    margin: 0 10px;
+    font-size: 1.8rem;
+    color: #0073e6;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: #005bb5;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #0073e6;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #005bb5;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .intro {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .intro-left {
+      margin-right: 0;
+      margin-bottom: 30px;
+    }
+  
+    .title {
+      font-size: 2.5rem;
+    }
+  
+    .subtitle {
+      font-size: 1.3rem;
+    }
+  
+    .tagline {
+      font-size: 1rem;
+    }
+  
+    .cta-button {
+      padding: 8px 20px;
+      font-size: 1rem;
+    }
+  }
+  
